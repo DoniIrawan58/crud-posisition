@@ -11,14 +11,14 @@ class nabil extends Command
      *
      * @var string
      */
-    protected $signature = 'command:name';
+    protected $signature = 'nabil:inspire';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Nabil inspirating quotes';
 
     /**
      * Create a new command instance.
@@ -37,6 +37,6 @@ class nabil extends Command
      */
     public function handle()
     {
-        return 0;
+        return $this->info("Tinju dibalas tinju");
     }
 }

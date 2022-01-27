@@ -37,6 +37,6 @@ class doni extends Command
      */
     public function handle()
     {
-        return $this->info("Tinju dibalas nasbung");
+        return $this->info("Jangan lupa makan");
     }
 }

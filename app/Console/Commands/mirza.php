@@ -35,8 +35,13 @@ class mirza extends Command
      *
      * @return int
      */
-    public function handle()
+    // public function handle()
+    // {
+    //     return $this->info("terkadang gw ngoding terkadang engga");
+    // }
+
+    public function __invoke()
     {
-        return $this->info("terkadang gw ngoding terkadang engga");
+        return $this->info("ngoding cuyy");
     }
 }

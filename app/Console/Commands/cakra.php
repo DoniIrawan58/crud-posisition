@@ -4,21 +4,21 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-class Doni extends Command
+class cakra extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'command:name';
+    protected $signature = 'cakra:inspire';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'its not a inspirating quotes';
 
     /**
      * Create a new command instance.
@@ -37,6 +37,6 @@ class Doni extends Command
      */
     public function handle()
     {
-        return 0;
+        return $this->info("Tidur adalah kewajiban");
     }
 }

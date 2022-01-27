@@ -11,7 +11,7 @@ class mirza extends Command
      *
      * @var string
      */
-    protected $signature = 'command:name';
+    protected $signature = 'mirza:inspire';
 
     /**
      * The console command description.

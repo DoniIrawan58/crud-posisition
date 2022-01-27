@@ -35,8 +35,12 @@ class nabil extends Command
      *
      * @return int
      */
-    public function handle()
-    {
-        return $this->comment("Tinju dibalas tinju");
+    // public function handle()
+    // {
+    //     return $this->comment("Tinju dibalas tinju");
+    // }
+
+    public function __invoke() {
+        $this->warn("a");
     }
 }

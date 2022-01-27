@@ -37,6 +37,6 @@ class nabil extends Command
      */
     public function handle()
     {
-        return $this->info("Tinju dibalas tinju");
+        return $this->comment("Tinju dibalas tinju");
     }
 }

@@ -35,8 +35,15 @@ class doni extends Command
      *
      * @return int
      */
-    public function handle()
+   // public function handle()
+   // {
+   //     return $this->info("Jangan lupa makan");
+    //}
+
+    public function __invoke()
     {
-        return $this->info("Jangan lupa makan");
+         return $this->info("Hey hey not bad");
     }
+
+
 }
